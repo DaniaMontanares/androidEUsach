@@ -13,4 +13,5 @@
     <string name="Registrarse">Registrarse</string>
     <string name="logoRegistro">Registro</string>
     <string name="bienvenidaPerfil">Bienvenido!</string>
+    <string name="recuperarPass">Recuperar Contraseña</string>
 </resources>

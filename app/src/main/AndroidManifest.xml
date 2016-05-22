@@ -28,14 +28,15 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".Main2Activity"
-            android:label="Recuperar Contraseña" />
-        <activity
             android:name=".registro"
             android:label="@string/logoRegistro" />
         <activity
             android:name=".perfilUsuario"
             android:label="Perfil Usuario" />
+        <activity
+            android:name=".recuperarContrasena"
+            android:label="@string/recuperarPass"
+            ></activity>
     </application>
 
 </manifest>

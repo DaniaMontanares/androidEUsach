@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void text_msg(View view){
-        Intent intento = new Intent(this,Main2Activity.class);
+        Intent intento = new Intent(this,recuperarContrasena.class);
         startActivity(intento);
     }
 
@@ -113,7 +113,8 @@ public class MainActivity extends AppCompatActivity {
             String[] userList = jh.getMailPass(item);
             int j=0;
             while(j<userList.length){
-                if(userList[j]==usuario){
+                if(userList[j].equals(usuario)){
+                    j=userList.length;
                     Intent i = new Intent(this, perfilUsuario.class);
                     startActivity(i);
                 }
