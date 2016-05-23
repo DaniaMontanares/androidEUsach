@@ -35,7 +35,9 @@
             android:label="Perfil Usuario" />
         <activity
             android:name=".recuperarContrasena"
-            android:label="@string/recuperarPass"
+            android:label="@string/recuperarPass" />
+        <activity android:name=".login"
+            android:label="@string/loginn"
             ></activity>
     </application>
 
